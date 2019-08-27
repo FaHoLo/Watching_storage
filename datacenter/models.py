@@ -35,7 +35,7 @@ class Visit(models.Model):
             duration = now_time - self.entered_at
         return duration
     
-    def get_format_duration(self):
+    def get_formatted_duration(self):
         duration = self.get_duration()
         seconds = duration.seconds
         days = duration.days
