@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 3. Используйте [virtualenv/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
-4. Запросите доступ к БД у менеджера вашего банка. Для доступа вам понадобятся хост, порт, имя базы, имя пользователя, пароль, секретный ключ сайта. Полученные данные положите в папку `project` в файл `.env` под именами `DATABASE_HOST, DATABASE_PORT, DATABASE_NAME, DATABASE_USER, DATABASE_PASSWORD, WEBSITE_SECRET_KEY` соответственно.
+4. Запросите доступ к БД у менеджера вашего банка. Для доступа вам понадобятся хост, порт, имя базы, имя пользователя, пароль, секретный ключ сайта. Полученные данные положите в папку `project` в файл `.env` под именами `DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD`, `WEBSITE_SECRET_KEY` соответственно.
 
 5. В файл `.env` добавьте переменную `DEBUG` со значением `False`.
 
