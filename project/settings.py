@@ -43,4 +43,3 @@ TEMPLATES = [
 USE_L10N = True
 
 LANGUAGE_CODE = 'ru-ru'
-

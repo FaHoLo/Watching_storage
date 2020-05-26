@@ -11,6 +11,7 @@ def storage_information_view(request):
     }
     return render(request, 'storage_information.html', context)
 
+
 def collect_non_closed_visit_info(visit):
     visit_info = {
         'who_entered': visit.passcard.owner_name,
